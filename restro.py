@@ -1,11 +1,11 @@
 from flask import Flask
 from app import views
 
-app = Flask(__name__, static_url_path=”/static”)
-UPLOAD_FOLDER =’static/uploads/’
+app = Flask(__name__, static_url_path="/static")
+UPLOAD_FOLDER ='static/uploads/'
 
 # APP CONFIGURATIONS
-app.config[‘UPLOAD_FOLDER’] = UPLOAD_FOLDER
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # url
 app.add_url_rule('/base', 'base', views.base)
