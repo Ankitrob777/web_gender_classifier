@@ -5,7 +5,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
 numpy==1.16.2
-opencv-python==4.2.0.34
+pip install opencv-python-headless==4.3.0.36
 pickle-mixin==1.0.2
 Pillow==5.4.1
 scikit-learn==0.20.3
